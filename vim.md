@@ -37,6 +37,8 @@ _By line:_
 - `gm`: move to the middle of the line (not the middle of the line text, but the middle of coloums visible in the window)
 - `#j`: down a particular number of lines, where # is a number
 - `#k`: up a particular number of lines, where # is a number
+- `gj`: down (screen line)
+- `gk`: up (screen line)
 
 _By paragraph:_
 
@@ -151,6 +153,10 @@ _Insert_
 _Delete_
 
 - `d$`: delete all text from the cursor to the end of the line
+
+## Word wrap and line breaks
+
+- `:set wrap linebreak`: enable "soft" word wrap
 
 ## Spellcheck
 
