@@ -152,6 +152,15 @@ _Delete_
 
 - `d$`: delete all text from the cursor to the end of the line
 
+## Spellcheck
+
+See: [Vim documentation: spell](http://vimdoc.sourceforge.net/htmldoc/spell.html)
+
+- `:setlocal spell spelllang=en_us`: enable spellcheck for the current session
+- `zg`: add misspelled word to spellfile
+- `zug`: remove a word from spellfile
+- `z=`: suggest alternative spellings for misspelled word
+
 ## File System
 
 - `:cd path`: change vim's working dirctory, where `path` is a file system path
