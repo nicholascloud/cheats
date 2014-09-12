@@ -39,6 +39,7 @@ _By line:_
 - `#k`: up a particular number of lines, where # is a number
 - `gj`: down (screen line)
 - `gk`: up (screen line)
+- `\`\``: return to last cursor location
 
 _By paragraph:_
 
