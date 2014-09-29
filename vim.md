@@ -142,6 +142,8 @@ _Search Flags_
 - `v`: enter visual mode to select text by character
 - `V`: enter visual mode to select text by line
 - `.`: repeat last edit
+- `:set list`: show hidden characters
+- `:set nolist`: hide hidden characters
 
 _Insert_
 
