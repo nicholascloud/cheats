@@ -106,7 +106,7 @@ __Note:__ Lower-case marks are file specific. Upper case marks are global across
 - `Ctrl+w t`: move focus to top-left window
 - `Ctrl+w b`: move focus to bottom right window
 
-- `Ctrl+w c`: close window (? doesn't appear to work)
+- `Ctrl+w q`: close window (split)
 - `Ctrl+w o`: close all windows but current
 
 - `Ctrl+w r`: rotate windows counter-clockwise
