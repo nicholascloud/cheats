@@ -204,3 +204,8 @@ _Directory listing commands_
 
 - `:options`: view all available vim options
 - `:set`: view all options that differ from default values
+
+## Program
+
+- `Ctrl+z`: suspend VIM and run in background (returns to terminal)
+- `fg`: (after suspend) run VIM in the foreground (returns to VIM)
