@@ -37,6 +37,9 @@ _By line:_
 - `gm`: move to the middle of the line (not the middle of the line text, but the middle of coloums visible in the window)
 - `#j`: down a particular number of lines, where # is a number
 - `#k`: up a particular number of lines, where # is a number
+- `gj`: down (screen line)
+- `gk`: up (screen line)
+- `` `` ``: (double backtick) return to last cursor location
 
 _By paragraph:_
 
@@ -103,7 +106,7 @@ __Note:__ Lower-case marks are file specific. Upper case marks are global across
 - `Ctrl+w t`: move focus to top-left window
 - `Ctrl+w b`: move focus to bottom right window
 
-- `Ctrl+w c`: close window (? doesn't appear to work)
+- `Ctrl+w q`: close window (split)
 - `Ctrl+w o`: close all windows but current
 
 - `Ctrl+w r`: rotate windows counter-clockwise
@@ -139,6 +142,8 @@ _Search Flags_
 - `v`: enter visual mode to select text by character
 - `V`: enter visual mode to select text by line
 - `.`: repeat last edit
+- `:set list`: show hidden characters
+- `:set nolist`: hide hidden characters
 
 _Insert_
 
@@ -151,6 +156,10 @@ _Insert_
 _Delete_
 
 - `d$`: delete all text from the cursor to the end of the line
+
+## Word wrap and line breaks
+
+- `:set wrap linebreak`: enable "soft" word wrap
 
 ## Spellcheck
 
